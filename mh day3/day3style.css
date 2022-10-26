@@ -1,0 +1,86 @@
+.header{
+    width: 1200px;
+    height: 100px;
+    background: rgb(236, 248, 240);
+    margin:0 auto;
+}
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 80px;
+    height: 100px;
+}
+
+
+.menu{float: right;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    padding:20px;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: red;
+    line-height: 60px;
+
+}
+.logo h1{
+    float: right;
+ clear: black;
+ font-style:italic;
+}
+/* slider part start */
+.slider{ 
+
+    width: 1200px;
+    height: 700px;
+    margin:0% auto;
+    background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)), url(./images/dpi.jpg);
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: 1200px;
+    
+ }
+ .slider h1{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    color: rgb(250, 245, 245);
+ }
+ .slider p{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    color: rgb(251, 250, 255);
+    text-align: center;
+ }
+ .slider a{ 
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: rgb(236, 8, 46);
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: #fafbfc;
+
+ }
+ .slider a:hover{
+    background: rgb(10, 12, 10);
+ }
+/*slider part end */
