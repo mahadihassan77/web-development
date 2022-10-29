@@ -1,0 +1,86 @@
+/*Responsive part start*/
+
+
+
+    .header{
+        width:100%;
+        background:white;
+        height:80px;
+    }
+    
+    .logo{
+        float: left;
+    }
+    
+    .logo img{
+        width: 60px;
+        height: 80px;
+    }
+    
+    
+    .menu{float: right;
+    
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        padding:10px;
+    }
+    .menu{
+        float: right;
+    }
+    .menu ul{
+        list-style: none;
+    }
+    .menu li {
+        display: inline-block;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        padding-right: 10px;
+        line-height: 47px;
+    }
+    .menu ul li a:hover {
+       color: rgb(20, 197, 64);
+    }
+    .logo h1{
+        float: right;
+        clear: black;
+        font-style:italic;
+        line-height: 35px;
+    }
+    /* slider part start */
+    .slider{ 
+
+        width: 100%;
+
+    }  
+     .slider h1{
+        top: 20%;
+        left: 23%;
+        color: rgb(247, 18, 18);
+        font-size: 25px;
+     }
+     .slider p{ 
+
+        top: 27%;
+        left: 28%;
+        color: rgb(72, 245, 66);
+        font-size: 17px;
+     }
+     .slider a{ 
+        top: 40%;
+        left: 38%;
+        color: rgb(8, 236, 38);
+        background: #08090a;
+        font-size: 15px;
+    
+     }
+     .slider a:hover{
+        background: rgb(209, 18, 28);
+     }
+    /*slider part end */
+    
+    /*Responsive part End*/
+    
+    

@@ -1,0 +1,135 @@
+.header{
+    width: 1200px;
+    height: 100px;
+    background: rgb(10, 247, 89);
+    margin:0 auto;
+}
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 80px;
+    height: 100px;
+}
+
+
+.menu{float: right;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    padding:20px;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: red;
+    line-height: 60px;
+    
+   
+
+}
+.logo h1{
+    float: right;
+ clear: black;
+ font-style:italic;
+}
+/* slider part start */
+.slider{ 
+
+    width: 1200px;
+    height: 700px;
+    margin:0% auto;
+    background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.6)), url(./images/dpi.jpg);
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: 1200px;
+    
+ }
+ .slider h1{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    color: rgb(250, 245, 245);
+ }
+ .slider p{
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    color: rgb(251, 250, 255);
+    text-align: center;
+ }
+ .slider a{ 
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: rgb(39, 247, 11);
+    text-decoration: none;
+    border: 1px solid rgb(6, 243, 38);
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: #fafbfc;
+
+ }
+ .slider a:hover{
+    background: rgb(10, 12, 10);
+ }
+/*slider part end */
+
+/*Hero part start*/
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.service-title{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+span{
+    color: orangered;
+}
+.card{
+    background: #2aeb2a;
+    padding: 20px;
+    height: 300px;
+    
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 40%;
+}
+.service-box{
+    text-align: center;
+    display: grid;
+   /* grid-template-columns: 1fr 1fr ; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    /* grid-template-columns: repeat(4,250px); */
+     /* grid-template-columns: repeat(3,1fr);  */
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto)); 
+    
+    gap: 5px;
+}
+.card a{
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/*Hero part End*/
